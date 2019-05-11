@@ -1,0 +1,100 @@
+{
+  "VM": {
+    "products": [
+      {
+        "id": "5safqasf",
+        "title": "Orbit",
+        "price": 2,
+        "unitPrice": "dollars",
+        "src": "./orbit.png",
+        "count": 25,
+        "isNew": true,
+        "unitCount": "шт"
+      },
+      {
+        "id": "3543gfdhet",
+        "title": "Coca-cola",
+        "price": 5,
+        "src": "./coca-cola.png",
+        "isNew": false,
+        "unitPrice": "dollars",
+        "count": 15,
+        "unitCount": "шт"
+      },
+      {
+        "id": "saf234fs",
+        "title": "Snickers",
+        "price": 3,
+        "isNew": true,
+        "src": "./snickers.png",
+        "unitPrice": "dollars",
+        "count": 35,
+        "unitCount": "шт"
+      },
+      {
+        "id": "dsf32ggeq",
+        "title": "Bounty",
+        "price": 3,
+        "unitPrice": "dollars",
+        "count": 25,
+        "src": "./bounty.png",
+        "isNew": false,
+        "unitCount": "шт"
+      },
+      {
+        "id": "23weg532",
+        "title": "Mars",
+        "price": 3,
+        "isNew": true,
+        "src": "./mars.png",
+        "unitPrice": "dollars",
+        "count": 15,
+        "unitCount": "шт"
+      },
+      {
+        "id": "sh43p234g",
+        "title": "Сoffee",
+        "price": 2,
+        "unitPrice": "dollars",
+        "count": 35,
+        "src": "./coffee.png",
+        "isNew": false,
+        "unitCount": "шт"
+      },
+      {
+        "id": "235ewgdfjre",
+        "title": "Sprite",
+        "price": 5,
+        "unitPrice": "dollars",
+        "count": 3,
+        "src": "./sprite.png",
+        "isNew": true,
+        "unitCount": "шт"
+      },
+      {
+        "id": "325fdfjgoq",
+        "title": "Tea",
+        "price": 2,
+        "unitPrice": "dollars",
+        "count": 55,
+        "isNew": false,
+        "src": "tea.png",
+        "unitCount": "шт"
+      },
+      {
+        "id": "32523gdfaqw",
+        "title": "cake",
+        "price": 4,
+        "isNew": true,
+        "src": "cake.png",
+        "unitPrice": "dollars",
+        "count": 15,
+        "unitCount": "шт"
+      }
+    ],
+    "info": {
+      "amount":0,
+      "title":"Вендинговый автомат"
+    }
+  }
+}

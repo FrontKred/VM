@@ -1,0 +1,8 @@
+const C = {
+    ADD_AMOUNT: "ADD_AMOUNT",
+    REMOVE_AMOUNT: "REMOVE_AMOUNT",
+    CHOOSE_PRODUCT:"CHOOSE_PRODUCT",
+    CALC_AMOUNT:"CALC_AMOUNT"
+};
+
+export default C;
