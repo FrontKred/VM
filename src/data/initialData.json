@@ -4,8 +4,7 @@
       {
         "id": "5safqasf",
         "title": "Orbit",
-        "price": 2,
-        "unitPrice": "dollars",
+        "price": 25,
         "src": "./orbit.png",
         "count": 25,
         "isNew": true,
@@ -14,28 +13,25 @@
       {
         "id": "3543gfdhet",
         "title": "Coca-cola",
-        "price": 5,
+        "price": 50,
         "src": "./coca-cola.png",
         "isNew": false,
-        "unitPrice": "dollars",
         "count": 15,
         "unitCount": "шт"
       },
       {
         "id": "saf234fs",
         "title": "Snickers",
-        "price": 3,
+        "price": 30,
         "isNew": true,
         "src": "./snickers.png",
-        "unitPrice": "dollars",
         "count": 35,
         "unitCount": "шт"
       },
       {
         "id": "dsf32ggeq",
         "title": "Bounty",
-        "price": 3,
-        "unitPrice": "dollars",
+        "price": 30,
         "count": 25,
         "src": "./bounty.png",
         "isNew": false,
@@ -44,18 +40,16 @@
       {
         "id": "23weg532",
         "title": "Mars",
-        "price": 3,
+        "price": 30,
         "isNew": true,
         "src": "./mars.png",
-        "unitPrice": "dollars",
         "count": 15,
         "unitCount": "шт"
       },
       {
         "id": "sh43p234g",
         "title": "Сoffee",
-        "price": 2,
-        "unitPrice": "dollars",
+        "price": 29,
         "count": 35,
         "src": "./coffee.png",
         "isNew": false,
@@ -64,8 +58,7 @@
       {
         "id": "235ewgdfjre",
         "title": "Sprite",
-        "price": 5,
-        "unitPrice": "dollars",
+        "price": 50,
         "count": 3,
         "src": "./sprite.png",
         "isNew": true,
@@ -74,8 +67,7 @@
       {
         "id": "325fdfjgoq",
         "title": "Tea",
-        "price": 2,
-        "unitPrice": "dollars",
+        "price": 80,
         "count": 55,
         "isNew": false,
         "src": "tea.png",
@@ -84,16 +76,22 @@
       {
         "id": "32523gdfaqw",
         "title": "cake",
-        "price": 4,
+        "price": 40,
         "isNew": true,
         "src": "cake.png",
-        "unitPrice": "dollars",
         "count": 15,
         "unitCount": "шт"
       }
     ],
     "info": {
       "amount":0,
+      "exchangeRates": {},
+      "unit": "",
+      "units": [
+        {"name":"USD","NumCode":"840", "style": "dollars"},
+        {"name":"RUB","style": "rubles"},
+        {"name":"EUR","NumCode":"978", "style": "euro"}
+      ],
       "title":"Вендинговый автомат"
     }
   }

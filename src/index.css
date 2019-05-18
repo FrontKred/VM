@@ -27,3 +27,15 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+
+
+.dropdown-item__element.dollars:before{
+  content: "\0024";
+}
+.dropdown-item__element.euro:before{
+  content: "\20AC";
+}
+.dropdown-item__element.rubles:before{
+  content: "\20BD";
+}

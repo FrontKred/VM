@@ -1,24 +1,35 @@
 import C from "../../constants";
 
-export const addAmount = (amount) =>
+export const addAmount = amount =>
     ({
-        type:C.ADD_AMOUNT,
+        type: C.ADD_AMOUNT,
         amount
     });
 
 export const removeAmount = () =>
     ({
-        type:C.REMOVE_AMOUNT,
+        type: C.REMOVE_AMOUNT,
     });
 
-export const calcAmount = (price) =>
+export const calcAmount = price =>
     ({
-        type:C.CALC_AMOUNT,
+        type: C.CALC_AMOUNT,
         price
     });
 
-export const chooseProduct = (id) =>
+export const getUnitsForUrl = units => ({
+    type: C.GET_UNITS_FOR_URL,
+    units,
+});
+
+export const chooseProduct = id =>
     ({
-        type:C.CHOOSE_PRODUCT,
-        productId:id,
+        type: C.CHOOSE_PRODUCT,
+        productId: id,
+    });
+
+export const chooseUnit = unit =>
+    ({
+        type: C.CHOOSE_UNIT,
+        unit
     });
